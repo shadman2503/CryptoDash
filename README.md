@@ -1,16 +1,36 @@
-# React + Vite
+# CryptoDash 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cryptocurrency price listing application built as a learning project to master modern **React.js** patterns and **Vite** tooling.
 
-Currently, two official plugins are available:
+## Learning Objectives
+This project was developed following the **"Modern React From The Beginning"** course by Brad Traversy. The primary goal was to move from fundamental concepts to building a functional, real-world application. Key concepts applied include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Functional Components & Props:** Structuring the UI into reusable pieces.
+* **Hooks:** Managing local state with `useState` and side effects with `useEffect`.
+* **Data Fetching:** Integrating with external APIs to display live market data.
+* **Vite Tooling:** Utilizing Hot Module Replacement (HMR) for a fast development workflow.
 
-## React Compiler
+## Built With
+* **React:** For building the user interface.
+* **Vite:** As the build tool and development server.
+* **CSS/Modules:** For scoped and maintainable styling.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation & Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/shadman2503/CryptoDash.git](https://github.com/shadman2503/CryptoDash.git)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   
+3. **Start the development server:**
+   ```bash
+   npm run dev
+
+## Credits
+
+- **Brad Traversy** – Course Instructor  
+- Course: *Modern React From The Beginning*
+- Original Repository: https://github.com/bradtraversy/crypto-dash
